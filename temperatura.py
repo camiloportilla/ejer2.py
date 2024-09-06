@@ -15,3 +15,7 @@ prom_temp = sum(temperaturas) / len(temperaturas)
 min_temp = round(min_temp, 3)
 max_temp = round(max_temp, 3)
 prom_temp = round(prom_temp, 3)
+# Mostrar los resultados
+print(f"Temperatura mínima: {min_temp}")
+print(f"Temperatura máxima: {max_temp}")
+print(f"Temperatura promedio: {prom_temp}")
