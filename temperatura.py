@@ -6,3 +6,12 @@ temperaturas = [
     27.102859960400624, 23.763191774421054, 25.157825319899203, 20.2290281340311,
     26.746902019682647, 22.750408458130667, 20.26298637657635, 26.423788201931604
 ]
+# Encontrar los valores mínimos, máximos y promedio
+min_temp = min(temperaturas)
+max_temp = max(temperaturas)
+prom_temp = sum(temperaturas) / len(temperaturas)
+
+# Redondear los resultados a 3 decimales
+min_temp = round(min_temp, 3)
+max_temp = round(max_temp, 3)
+prom_temp = round(prom_temp, 3)
